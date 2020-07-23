@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <title>Create Account | BioLabCorp</title>
+        <link rel="stylesheet" href="css/create_account.css">
+    </head>
+    <body>
+        <div id=CreateGroup>
+            <div class="mainImage"><!--login_img/IN_0405.pngをCSSで指定--></div>
+
+			<form action="../cgi-bin/check_create_account.py" method="POST">
+				<div class="textInput">
+					<input class="username" type="text" placeholder="User Name" name="UserName">  <!--ユーザ名(groupName)を格納する-->
+				</div>
+
+				<div class="textInput">
+					<input class="email" type="email" placeholder="Email" name="EMail"> <!--メールアドレス (mail)を格納する-->
+				</div>
+
+				<div class="textInput">
+					<input class="password" type="password" placeholder="Pass Word" name="PassWord"> <!--パスワード(password)を格納する-->
+				</div>
+
+				<div class="moveButton">
+					<button type="submit" class="next">Next &gt;</button>
+				</div>
+			</form>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</HTML>

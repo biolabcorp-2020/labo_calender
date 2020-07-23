@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body,html {
+	width:100%;
+	height:100%;
+}
+body {
+	background: #4548e6;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 40px;
+	-webkit-text-size-adjust: 100%;
+	text-align: center;
+	/*letter-spacing: 0.5px;<--!文字間-->*/
+	/*font-family: ****;*/	/*フォント種類*/
+	/*line-height: 2;	*/	/*行間*/
+}
+
+#JoinGroup {
+    display: inline-block;
+}
+
+.mainImage {
+    margin-top: 400px;
+    margin-bottom: 400px;
+    width: 995px;
+    height: 400px;
+    background-image: url(../img/login_img/IN_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textInput {
+    margin-bottom: 65px;
+}
+input {
+    width: 850px;
+    height: 105px;
+    font-size: 40px;
+    background-color: #4548e6;
+    color: #ffffff;
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 90px;
+}
+::placeholder {
+    color: #ffffff;
+    /*font-family: 'Myriad Pro Semibold';
+    フォントはあとで変更*/
+}
+
+input.groupName {
+    background-image: url(../img/login_img/login_icon1.png);
+    background-repeat: no-repeat;
+}
+input.roomKeyNumber {
+    background-image: url(../img/login_img/login_icon3.png);
+    background-repeat: no-repeat;
+}
+
+button {
+    margin-top: 110px;
+    margin-bottom: 320px;
+    width: 424px;
+    height: 140px;
+    font-size: 60px;
+}
+.back {
+    margin-right: 30px;
+	background-color: #4548e6;
+    color: White;
+
+}
+button.back:hover {
+    background-color: #4548e6;
+    color: White;
+}
+
+.join {
+    margin-left: 30px;
+	background-color: White;
+    color: #4548e6;
+
+}
+button.join:hover {
+	background-color: White;
+    color: #4548e6;
+}

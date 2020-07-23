@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='ja'>
+    <head>
+        <meta charset="utf-8">
+        <title>entrance group | BioLabCorp</title>
+        <link rel="stylesheet" href="css/entrance_group.css">
+    </head>
+
+    <body>
+        <div id="JoinGroup">
+            <div class = "mainImage">
+                <!--CSSで画像img/login_img/IN_03.pngを挿入-->
+            </div>
+
+            <div class="textInput">
+                <input class="groupName" type="text" placeholder="Group name" name="groupName">  <!--グループ名(groupName)を格納する-->
+            </div>
+            <div class="textInput">
+                <input class="roomKeyNumber" type="password" placeholder="Room key number" name="keyNumber"> <!--キーナンバー(roomKeyNumber)を格納する-->
+            </div>
+
+            <div class="moveButton">
+                <button type="submit" class="back" onclick="location.href='select_menu.html'">&lt; Back</button>   <!--リンクを追加-->
+                <button type="submit" class="join" onclick="location.href='check_create_group.html'">Join</button>
+            </div>
+        </div>
+    </body>
+
+</html>

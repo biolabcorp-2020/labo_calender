@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <title>Check Create Acount | BioLabCorp</title>
+        <link rel="stylesheet" href="css/check_create_account.css">
+    </head>
+    <body>
+        <div id=checkCreateGroup>
+            <div class="mainImage"><!--login_img/IN_0405.pngをCSSで指定--></div>
+
+            <div class="textOutput">
+                <!--ユーザーネームを表示(check_create_account.htmlで受け取った値はvalue)-->
+                <input type="text" class="UserName" value="" readonly>
+            </div>
+
+            <div class="textOutput">
+                <input type="email" class="email" value="" readonly> <!--メールアドレスを表示(check_create_account.htmlで受け取った値はvalue)-->
+
+            <div class="textOutput">
+                <!--パスワードを表示(check_create_account.htmlで受け取った値はvalue)-->
+                <input type="password" class="password" value="" readonly>
+            </div>
+
+            <div class="moveButton">
+                <button type="submit" class="back" onclick="location.href='create_account.html'">&lt; Back</button>
+                <button type="submit" class="create" onclick="location.href='done_create_group.html'">Registration</button>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</HTML>

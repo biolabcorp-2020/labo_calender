@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='ja'>
+    <head>
+        <meta charset="utf-8">
+        <title>Login | BioLabCorp</title>
+        <link rel="stylesheet" href="css/login_error.css">
+    </head>
+    
+    <body>
+        <div id="Log_in">
+            <div class = "mainImage">
+                <!--CSSで画像を挿入-->
+            </div>
+
+			<form action="../cgi-bin/select_menu.py" method="POST">
+				<div class="textInput">
+					<input class="UserName" type="text" placeholder="User Name" name="UserName">  <!--グループ名(UserName)を格納する-->
+				</div>
+				<div class="textInput">
+					<input class="password" type="password" placeholder="passward" name="password"> <!--キーナンバー(passward)を格納する-->
+				</div>
+
+				<div class="errorMessage">
+					UserName または password が間違っています。
+				</div>
+
+				<div class="LogInButton">
+					<button type="submit" class="LogIn">Log in</button>   <!--リンクを追加-->
+				</div>
+
+				<div class = "registration">
+					Not registered?
+					<a href="create_account.html">Registration you account</a>
+				</div>
+				<div class = "forget_pass">
+					<a href="xx.html">Forget password?</a>
+				</div>
+			</form>
+        </div>
+    </body>
+</html>

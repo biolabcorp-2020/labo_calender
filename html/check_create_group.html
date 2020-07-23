@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <title>Check create group | BioLabCorp</title>
+        <link rel="stylesheet" href="css/check_create_group.css">
+    </head>
+    <body>
+        <div id=checkCreateGroup>
+            <div class="mainImage"><!--login_img/IN_0405.pngをCSSで指定--></div>
+
+            <div class="textOutput">
+                <!--グループ名を表示(check_create_group.htmlで受け取った値はvalue)-->
+                <input type="text" class="groupName" value="" readonly>
+            </div>
+
+            <div class="textOutput">
+                <!--キーナンバーを表示(check_create_group.htmlで受け取った値はvalue)-->
+                <input type="password" class="roomKeyNumber" value="" readonly>
+            </div>
+
+            <div class="moveButton">
+                <button type="submit" class="back" onclick="location.href='create_group.html'">&lt; Back</button>
+                <button type="submit" class="create" onclick="location.href='done_create_group.html'">Create</button>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</HTML>
